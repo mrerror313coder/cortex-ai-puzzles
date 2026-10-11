@@ -1,5 +1,7 @@
 # CORTEX AI: Adaptive Generative Puzzle Platform
 
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/mrerror313coder/cortex-ai-puzzles)
+
 A full-stack, responsive web application engineered with **Next.js 14+ (App Router), TypeScript, Tailwind CSS, and HTML5 Canvas**. CORTEX AI pairs deterministic constraint solvers with Generative AI to deliver guaranteed-solvable, endlessly replayable, and pedagogically assisted puzzles.
 
 ---
