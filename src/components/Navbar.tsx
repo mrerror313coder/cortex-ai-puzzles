@@ -2,7 +2,7 @@
 
 import React from "react";
 import { Sparkles, Trophy, Flame, BarChart3, Bot, Compass } from "lucide-react";
-import { UserStats } from "@/lib/types";
+import { UserStats } from "../lib/types";
 
 interface NavbarProps {
   stats: UserStats;

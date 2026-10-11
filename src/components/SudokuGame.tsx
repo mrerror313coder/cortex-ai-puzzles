@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState, useEffect, useCallback } from "react";
-import { SudokuPuzzle, HintLevel, HintResponse } from "@/lib/types";
+import { SudokuPuzzle, HintLevel, HintResponse } from "../lib/types";
 import { Lightbulb, RotateCcw, Edit3, Trash2, Trophy, Clock, AlertCircle } from "lucide-react";
 
 interface SudokuGameProps {

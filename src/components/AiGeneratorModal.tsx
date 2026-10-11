@@ -2,7 +2,7 @@
 
 import React, { useState } from "react";
 import { Sparkles, Bot, Loader2, X, Wand2 } from "lucide-react";
-import { PuzzleType, DifficultyLevel } from "@/lib/types";
+import { PuzzleType, DifficultyLevel } from "../lib/types";
 
 interface AiGeneratorModalProps {
   isOpen: boolean;

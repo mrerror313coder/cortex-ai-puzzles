@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import { HintResponse } from "@/lib/types";
+import { HintResponse } from "../lib/types";
 import { Lightbulb, Sparkles, Check, X } from "lucide-react";
 
 interface SmartHintModalProps {

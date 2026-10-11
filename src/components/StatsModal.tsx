@@ -1,8 +1,8 @@
 "use client";
 
 import React from "react";
-import { UserStats, Achievement, PuzzleType } from "@/lib/types";
-import { ACHIEVEMENTS_LIST } from "@/lib/storage";
+import { UserStats, Achievement, PuzzleType } from "../lib/types";
+import { ACHIEVEMENTS_LIST } from "../lib/storage";
 import { Trophy, Flame, Sparkles, Clock, CheckCircle2, Lock, X } from "lucide-react";
 
 interface StatsModalProps {

@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState, useEffect, useRef, useCallback } from "react";
-import { WordSearchPuzzle, WordSearchWord, HintLevel, HintResponse } from "@/lib/types";
+import { WordSearchPuzzle, WordSearchWord, HintLevel, HintResponse } from "../lib/types";
 import { Clock, Lightbulb, CheckCircle2, Sparkles, Search } from "lucide-react";
 
 interface WordSearchGameProps {

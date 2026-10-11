@@ -1,10 +1,10 @@
 import { NextRequest, NextResponse } from "next/server";
-import { SudokuEngine } from "@/lib/engines/sudoku";
-import { WordSearchEngine } from "@/lib/engines/wordsearch";
-import { CrosswordEngine } from "@/lib/engines/crossword";
-import { JigsawEngine } from "@/lib/engines/jigsaw";
-import { THEMATIC_CROSSWORD_BANKS, THEMATIC_WORDSEARCH_BANKS } from "@/lib/sample-puzzles";
-import { DifficultyLevel, PuzzleType } from "@/lib/types";
+import { SudokuEngine } from "../../../../lib/engines/sudoku";
+import { WordSearchEngine } from "../../../../lib/engines/wordsearch";
+import { CrosswordEngine } from "../../../../lib/engines/crossword";
+import { JigsawEngine } from "../../../../lib/engines/jigsaw";
+import { THEMATIC_CROSSWORD_BANKS, THEMATIC_WORDSEARCH_BANKS } from "../../../../lib/sample-puzzles";
+import { DifficultyLevel, PuzzleType } from "../../../../lib/types";
 
 export async function POST(req: NextRequest) {
   try {

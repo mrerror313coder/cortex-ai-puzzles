@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
-import { DifficultyLevel, PuzzleType } from "@/lib/types";
+import { DifficultyLevel, PuzzleType } from "../../../../lib/types";
 
 export async function POST(req: NextRequest) {
   try {

@@ -2,7 +2,7 @@
 
 import React from "react";
 import { Play, Sparkles, Brain, Grid, Search, Image as ImageIcon } from "lucide-react";
-import { PuzzleType, DifficultyLevel } from "@/lib/types";
+import { PuzzleType, DifficultyLevel } from "../lib/types";
 
 interface GameCardProps {
   type: PuzzleType;

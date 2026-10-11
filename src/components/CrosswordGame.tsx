@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState, useEffect, useCallback } from "react";
-import { CrosswordPuzzle, CrosswordClue, HintLevel, HintResponse } from "@/lib/types";
+import { CrosswordPuzzle, CrosswordClue, HintLevel, HintResponse } from "../lib/types";
 import { Clock, Lightbulb, CheckCircle2, Brain } from "lucide-react";
 
 interface CrosswordGameProps {

@@ -2,7 +2,7 @@
 
 import React from "react";
 import { Calendar, Flame, ArrowRight, Zap } from "lucide-react";
-import { PuzzleType } from "@/lib/types";
+import { PuzzleType } from "../lib/types";
 
 interface DailyChallengeBannerProps {
   onStartDaily: (type: PuzzleType) => void;

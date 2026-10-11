@@ -1,20 +1,20 @@
 "use client";
 
 import React, { useState, useEffect } from "react";
-import { Navbar } from "@/components/Navbar";
-import { DailyChallengeBanner } from "@/components/DailyChallengeBanner";
-import { GameCard } from "@/components/GameCard";
-import { SudokuGame } from "@/components/SudokuGame";
-import { CrosswordGame } from "@/components/CrosswordGame";
-import { WordSearchGame } from "@/components/WordSearchGame";
-import { JigsawGame } from "@/components/JigsawGame";
-import { SmartHintModal } from "@/components/SmartHintModal";
-import { AiGeneratorModal } from "@/components/AiGeneratorModal";
-import { WinModal } from "@/components/WinModal";
-import { StatsModal } from "@/components/StatsModal";
+import { Navbar } from "../components/Navbar";
+import { DailyChallengeBanner } from "../components/DailyChallengeBanner";
+import { GameCard } from "../components/GameCard";
+import { SudokuGame } from "../components/SudokuGame";
+import { CrosswordGame } from "../components/CrosswordGame";
+import { WordSearchGame } from "../components/WordSearchGame";
+import { JigsawGame } from "../components/JigsawGame";
+import { SmartHintModal } from "../components/SmartHintModal";
+import { AiGeneratorModal } from "../components/AiGeneratorModal";
+import { WinModal } from "../components/WinModal";
+import { StatsModal } from "../components/StatsModal";
 
-import { StorageService, INITIAL_USER_STATS } from "@/lib/storage";
-import { AdaptiveDifficultyEngine } from "@/lib/engines/adaptive";
+import { StorageService, INITIAL_USER_STATS } from "../lib/storage";
+import { AdaptiveDifficultyEngine } from "../lib/engines/adaptive";
 import {
   PuzzleType,
   DifficultyLevel,
@@ -26,7 +26,7 @@ import {
   CrosswordPuzzle,
   WordSearchPuzzle,
   JigsawPuzzle,
-} from "@/lib/types";
+} from "../lib/types";
 import { Sparkles, ArrowLeft, Bot, Trophy, Flame, Zap, ShieldCheck } from "lucide-react";
 
 export default function Home() {

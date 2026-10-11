@@ -3,7 +3,7 @@
 import React, { useEffect } from "react";
 import confetti from "canvas-confetti";
 import { Trophy, Clock, Lightbulb, Sparkles, ArrowRight, RotateCcw } from "lucide-react";
-import { Achievement, PuzzleType } from "@/lib/types";
+import { Achievement, PuzzleType } from "../lib/types";
 
 interface WinModalProps {
   isOpen: boolean;

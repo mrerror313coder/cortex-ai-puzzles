@@ -1,8 +1,8 @@
 "use client";
 
 import React, { useState, useEffect, useRef, useCallback } from "react";
-import { JigsawPuzzle, JigsawPiece, HintLevel, HintResponse } from "@/lib/types";
-import { JigsawEngine } from "@/lib/engines/jigsaw";
+import { JigsawPuzzle, JigsawPiece, HintLevel, HintResponse } from "../lib/types";
+import { JigsawEngine } from "../lib/engines/jigsaw";
 import { Clock, Lightbulb, Image as ImageIcon, Eye, CheckCircle2 } from "lucide-react";
 
 interface JigsawGameProps {
