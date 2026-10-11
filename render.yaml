@@ -11,3 +11,5 @@ services:
         value: 20
       - key: NODE_ENV
         value: production
+      - key: NEXT_TELEMETRY_DISABLED
+        value: "1"
